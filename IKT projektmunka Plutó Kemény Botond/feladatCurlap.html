@@ -1,0 +1,38 @@
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feladatCurlapformaz.css">
+    <script src="feladatCfeldolgoz.js"></script>
+    <title>Feladatlap</title>
+</head>
+<body>
+    <header>
+        <h1>Feladatlap a Plúóval kapcsolatban</h1>
+    </header>
+    <form>
+        <h2>1. kérdés: Milyen fajta égitest a Plútó jelenleg?</h2>
+        <input type="radio" name="quiz01" id="a01">Csillag<br>
+        <input type="radio" name="quiz01" id="b01">Bolygó<br>
+        <input type="radio" name="quiz01" id="c01">Törpebolygó<br>
+        <input type="radio" name="quiz01" id="d01">Üstökös<br>
+        <input type="button" value="Ellenőrzés" onclick="ell01()">
+        <h2>2. kérdés: Hány holdja van a Plútónak?</h2>
+        <input type="radio" name="quiz02" id="a02">5<br>
+        <input type="radio" name="quiz02" id="b02">2<br>
+        <input type="radio" name="quiz02" id="c02">1<br>
+        <input type="radio" name="quiz02" id="d02">8<br>
+        <input type="button" value="Ellenőrzés" onclick="ell02()">
+        <h2>3. kérdés: Melyik hold tartozik a Plútóhoz?</h2>
+        <input type="radio" name="quiz03" id="a03">Europa<br>
+        <input type="radio" name="quiz03" id="b03">Charon<br>
+        <input type="radio" name="quiz03" id="c03">Callisto<br>
+        <input type="radio" name="quiz03" id="d03">Phobos<br>
+        <input type="button" value="Ellenőrzés" onclick="ell03()">
+        <h2>Eredmények:</h2>
+        <span id="megoldas01"></span><br>
+        <span id="megoldas02"></span><br>
+        <span id="megoldas03"></span><br>
+    </form>
+</body>
+</html>
